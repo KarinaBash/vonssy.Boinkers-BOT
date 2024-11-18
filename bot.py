@@ -962,7 +962,7 @@ class Boinkers:
                 games_energy = user['gamesEnergy']
                 if games_energy:
                     id = self.load_liveopid()
-                    multipliers = [50, 25, 10, 5, 3, 2, 1]
+                    multipliers = [500, 250, 150, 100, 50, 25, 10, 5, 3, 2, 1]
 
                     for game_type, details in games_energy.items():
                         if game_type in ['slotMachine', 'wheelOfFortune']:
